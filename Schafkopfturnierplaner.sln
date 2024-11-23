@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schafkopfturnierplaner.Console", "Schafkopfturnierplaner.Console\Schafkopfturnierplaner.Console.csproj", "{FE7C6213-D818-42DD-BD73-07E346AC9BC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schafkopfturnierplaner.Tests", "Schafkopfturnierplaner.Tests\Schafkopfturnierplaner.Tests.csproj", "{B0EC674B-34C0-4088-BEAB-BCAF3F5C0040}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE7C6213-D818-42DD-BD73-07E346AC9BC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE7C6213-D818-42DD-BD73-07E346AC9BC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE7C6213-D818-42DD-BD73-07E346AC9BC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE7C6213-D818-42DD-BD73-07E346AC9BC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0EC674B-34C0-4088-BEAB-BCAF3F5C0040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0EC674B-34C0-4088-BEAB-BCAF3F5C0040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0EC674B-34C0-4088-BEAB-BCAF3F5C0040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0EC674B-34C0-4088-BEAB-BCAF3F5C0040}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

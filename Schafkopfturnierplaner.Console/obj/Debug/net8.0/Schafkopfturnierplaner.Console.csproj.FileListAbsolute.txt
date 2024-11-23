@@ -1,0 +1,14 @@
+C:\Projects\SchafkopfTurnierplaner\Schafkopfturnierplaner.Console\bin\Debug\net8.0\Schafkopfturnierplaner.Console.exe
+C:\Projects\SchafkopfTurnierplaner\Schafkopfturnierplaner.Console\bin\Debug\net8.0\Schafkopfturnierplaner.Console.deps.json
+C:\Projects\SchafkopfTurnierplaner\Schafkopfturnierplaner.Console\bin\Debug\net8.0\Schafkopfturnierplaner.Console.runtimeconfig.json
+C:\Projects\SchafkopfTurnierplaner\Schafkopfturnierplaner.Console\bin\Debug\net8.0\Schafkopfturnierplaner.Console.dll
+C:\Projects\SchafkopfTurnierplaner\Schafkopfturnierplaner.Console\bin\Debug\net8.0\Schafkopfturnierplaner.Console.pdb
+C:\Projects\SchafkopfTurnierplaner\Schafkopfturnierplaner.Console\obj\Debug\net8.0\Schafkopfturnierplaner.Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\SchafkopfTurnierplaner\Schafkopfturnierplaner.Console\obj\Debug\net8.0\Schafkopfturnierplaner.Console.AssemblyInfoInputs.cache
+C:\Projects\SchafkopfTurnierplaner\Schafkopfturnierplaner.Console\obj\Debug\net8.0\Schafkopfturnierplaner.Console.AssemblyInfo.cs
+C:\Projects\SchafkopfTurnierplaner\Schafkopfturnierplaner.Console\obj\Debug\net8.0\Schafkopfturnierplaner.Console.csproj.CoreCompileInputs.cache
+C:\Projects\SchafkopfTurnierplaner\Schafkopfturnierplaner.Console\obj\Debug\net8.0\Schafkopfturnierplaner.Console.dll
+C:\Projects\SchafkopfTurnierplaner\Schafkopfturnierplaner.Console\obj\Debug\net8.0\refint\Schafkopfturnierplaner.Console.dll
+C:\Projects\SchafkopfTurnierplaner\Schafkopfturnierplaner.Console\obj\Debug\net8.0\Schafkopfturnierplaner.Console.pdb
+C:\Projects\SchafkopfTurnierplaner\Schafkopfturnierplaner.Console\obj\Debug\net8.0\Schafkopfturnierplaner.Console.genruntimeconfig.cache
+C:\Projects\SchafkopfTurnierplaner\Schafkopfturnierplaner.Console\obj\Debug\net8.0\ref\Schafkopfturnierplaner.Console.dll
