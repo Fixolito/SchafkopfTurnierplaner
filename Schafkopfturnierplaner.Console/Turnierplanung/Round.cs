@@ -79,5 +79,10 @@ public class Round(int number, Dictionary<Table,Matchup> roundSeating)
         return builder.ToString();
     }
 
+    public void ShuffleMatchups()
+    {
+        foreach (Matchup matchup in Seatings.Values)
+            matchup.Shuffle();
+    }
 
 }

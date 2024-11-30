@@ -12,3 +12,4 @@ C:\Projects\SchafkopfTurnierplaner\Schafkopfturnierplaner.Console\obj\Debug\net8
 C:\Projects\SchafkopfTurnierplaner\Schafkopfturnierplaner.Console\obj\Debug\net8.0\Schafkopfturnierplaner.Console.pdb
 C:\Projects\SchafkopfTurnierplaner\Schafkopfturnierplaner.Console\obj\Debug\net8.0\Schafkopfturnierplaner.Console.genruntimeconfig.cache
 C:\Projects\SchafkopfTurnierplaner\Schafkopfturnierplaner.Console\obj\Debug\net8.0\ref\Schafkopfturnierplaner.Console.dll
+C:\Projects\SchafkopfTurnierplaner\Schafkopfturnierplaner.Console\obj\Debug\net8.0\Schafkopfturnierplaner.Console.sourcelink.json

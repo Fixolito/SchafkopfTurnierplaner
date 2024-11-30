@@ -39,11 +39,13 @@ public class Matchup
         for(int i = 0; i < PlayerCount; i++)
             Players[i] = players[first + i];
 
-        Console.WriteLine(this);
         AllSlotsFilled = HasAllSlotsFilled();
     }
 
-
+    public void Shuffle()
+    {
+        Players.Shuffle();
+    }
 
     public override string ToString()
     {

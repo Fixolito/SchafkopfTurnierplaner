@@ -6,19 +6,16 @@ public partial class TournamentPlanning
 {
     public void GenerateGeneral3RoundMethod()
     {
-
         if (GenerateFirstRound())
         {
             AnalyzeProblem(Rounds[^1]);
             SeatPlayer();
-            Console.WriteLine(Rounds[^1]);
             return;
         }
         
         if (Rounds.Count == 1)
         {
             GenerateSecondRoundGeneral1();
-            Console.WriteLine(Rounds[^1]);
             SeatPlayer();
             return;
         }
@@ -26,7 +23,6 @@ public partial class TournamentPlanning
         if (Rounds.Count == 2)
         {
             GenerateThirdRoundGeneral1();
-            Console.WriteLine(Rounds[^1]);
             SeatPlayer();
             return;
         }
@@ -68,7 +64,6 @@ public partial class TournamentPlanning
         Round newRound = new(RoundsGenerated++, seating);
         newRound.Validate();
         AnalyzeProblem(newRound);
-        //PrintProblems(newRound);
         Rounds.Add(newRound);
     }
 
@@ -118,7 +113,6 @@ public partial class TournamentPlanning
         Round round = new(RoundsGenerated++, seating);
         round.Validate();
         AnalyzeProblem(round);
-        //PrintProblems(round);
         Rounds.Add(round);
 
     }

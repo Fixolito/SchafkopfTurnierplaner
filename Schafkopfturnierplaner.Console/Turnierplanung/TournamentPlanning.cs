@@ -24,6 +24,12 @@ public partial class TournamentPlanning
         Rounds[^1].SeatPlayers();
     }
 
+    public void ShuffleSeating()
+    {
+        foreach (Round round in Rounds)
+            round.ShuffleMatchups();
+    }
+
     private bool GenerateFirstRound()
     {
         if (Rounds.Count != 0)
@@ -79,7 +85,6 @@ public partial class TournamentPlanning
             else
                 Tables[i].Size = 4;
         }
-        PrintTables();
     }
 
     private void CreateConsistencyForLateJoiningPlayers()
@@ -155,5 +160,11 @@ public partial class TournamentPlanning
         List<Matchup> thirdRound4Players = [];
         List<Matchup> thirdRound5Players = [];
 
+    }
+
+    public void PrintRounds()
+    {
+        foreach (Round round in Rounds)
+            Console.WriteLine(round);
     }
 }

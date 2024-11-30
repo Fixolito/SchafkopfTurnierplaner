@@ -20,6 +20,21 @@ public static class Utility
         return shuffledList;
     }
 
+    public static void Shuffle<T>(this T[] array)
+    {
+        Random random = new Random();
+        int n = array.Length;
+        
+        for (int i = n - 1; i > 0; i--)
+        {
+            int j = random.Next(0, i + 1);
+            
+            T temp = array[i];
+            array[i] = array[j];
+            array[j] = temp;
+        }
+    }
+
     public static List<Player> SortByRoundsSinceTable(this List<Player> players, Table table)
     {
         ArgumentNullException.ThrowIfNull(players);

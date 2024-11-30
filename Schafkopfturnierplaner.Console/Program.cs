@@ -23,5 +23,10 @@ public class Program
         planning.GenerateGeneral3RoundMethod();
         planning.GenerateGeneral3RoundMethod();
         planning.GenerateGeneral3RoundMethod();
+        planning.ShuffleSeating();
+        ConsoleColor def = Console.ForegroundColor;
+        Console.ForegroundColor = ConsoleColor.DarkGreen;
+        planning.PrintRounds();
+        Console.ForegroundColor = def;
     }
 }

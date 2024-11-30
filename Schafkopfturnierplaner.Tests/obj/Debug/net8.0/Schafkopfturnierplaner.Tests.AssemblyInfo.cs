@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Schafkopfturnierplaner.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e560a5e3558534183100ca37839c6cffe058fb90")]
 [assembly: System.Reflection.AssemblyProductAttribute("Schafkopfturnierplaner.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Schafkopfturnierplaner.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
