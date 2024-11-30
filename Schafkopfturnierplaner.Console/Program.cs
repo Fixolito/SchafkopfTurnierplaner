@@ -14,10 +14,15 @@ public class Program
     static void Main()
     {
         TournamentPlanning planning = new();
-        int playerCount = 27;
+        
+        Console.WriteLine(string.Join(", ", Namen));
+        List<string> names = GetCommaSeparatedInput();
 
-        for (int i = 1; i <= playerCount; i++)
-            planning.AddPlayer($"Player{i}");
+        /* for (int i = 1; i <= playerCount; i++)
+            planning.AddPlayer($"Player{i}"); */
+
+        foreach (string name in names)
+            planning.AddPlayer(name);
 
         Console.WriteLine($"Player participating: {planning.Players.Count}");
         planning.GenerateGeneral3RoundMethod();
@@ -28,5 +33,20 @@ public class Program
         Console.ForegroundColor = ConsoleColor.DarkGreen;
         planning.PrintRounds();
         Console.ForegroundColor = def;
+    }
+
+    public static List<string> GetCommaSeparatedInput()
+    {
+        Console.WriteLine("Please enter comma-separated values:");
+        string input = Console.ReadLine() ?? string.Empty;
+        
+        // Split the string and trim whitespace
+        List<string> values = input
+            .Split(',')
+            .Select(x => x.Trim())
+            .Where(x => !string.IsNullOrWhiteSpace(x))
+            .ToList();
+            
+        return values;
     }
 }
